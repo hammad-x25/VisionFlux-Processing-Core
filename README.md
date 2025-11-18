@@ -9,7 +9,7 @@ It supports PPM (P6) and PGM (P5) formats and provides a wide range of transform
 
 The project follows clean modular design practices, separating I/O, processing, memory management, and execution flow for maximum readability and scalability.
 
-📁 Project Structure
+````📁 Project Structure
 VisionFlux Processing Core/
 │
 ├── test/
@@ -25,6 +25,7 @@ VisionFlux Processing Core/
 │   └── global.cpp
 │
 └── README.md
+````
 
 ✨ Features
 📥 File Parsing
@@ -102,14 +103,16 @@ Calls processing functions
 Writes output files
 
 🚀 How to Build & Run
+```
 Compile
 g++ src/*.cpp -o VisionFlux_Processing_Core
 
+
 Run
 ./VisionFlux_Processing_Core
-
+```
 🔧 Future Enhancements
-
+```
 Add PNG/JPEG support
 
 Histogram equalization
@@ -117,14 +120,16 @@ Histogram equalization
 Edge detection (Sobel, Canny)
 
 GUI using Qt or ImGui
+```
 
 📝 License
-
+```
 MIT License — free for academic and personal use.
-
-👤 Author
-
+```
+👤 Authors
+```
 Hammad Ashfaq - BCSF24M003
 Muhammad Huzaifa Farrukh - BCSF24M001
 Huzayfa Siddique - BCSF24M049
 Computer Science — Punjab University, Allama Iqbal Campus, Lahore
+```
